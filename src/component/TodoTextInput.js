@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react'
 
-import classnames from 'classnames'
-class TodoTextInput extends Component {
+export  default class TodoTextInput extends Component {
+
 	handleSubmit = e =>{
 		const text = e.target.value.trim();
 		if (e.which == 13){
@@ -18,4 +18,3 @@ class TodoTextInput extends Component {
 			   )
 	}
 }
-export default TodoTextInput;
